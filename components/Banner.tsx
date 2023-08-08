@@ -21,14 +21,17 @@ export const Banner = () => {
               <b>Número de teléfono</b>
             </h3>
               <input type="tel" placeholder="Ingresa tu teléfono aquí" id="phone" className="responsive center-block" ></input>
-              <button id="btn-start" style={{width: '100%', background: '#57B947'}}></button>
-              <button id="btn-start" style=" responsive center-block  width: 100%; background: #57B947; border-radius: 5px; color: #fff; margin-top: 10px; margin-bottom: 10px; padding: 5px;">
+              <button id="btn-start" ></button>
+              <button id="btn-start" className=" responsive center-block  width: 100%; background: #57B947; border-radius: 5px; color: #fff; margin-top: 10px; margin-bottom: 10px; padding: 5px;">
                 Iniciar
               </button>
 
               <button id="btn-pin" className="esponsive center-block background: none; border: none; color: #384662;">
               Pin activación
               </button>
+
+              <div className="ttl_co">Ofertas</div>
+              <div className="clearfix margin_co"></div>
              </div>
         </div>
       </div>
